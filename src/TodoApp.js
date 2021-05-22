@@ -30,11 +30,11 @@ class TodoApp extends React.Component {
       <div className='comment'>
         <div className='content'>
           {/*不明原因無法切換狀態*/}
-          {/*            <DoneAll className='author' 
+                      <DoneAll className='author' 
                 style={styles.delete}
                 onClick={this.handleChangeComplete.bind(this)}>
                 {this.props.complete ? '已完成' : '未完成'}
-          </DoneAll> */}
+          </DoneAll> 
 
           <span className='author'
             style={styles.title}
